@@ -256,6 +256,66 @@
         </div>
     </section>
 
+    <!-- Service Plan Request Form -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-5">
+                            <h2 class="h3 fw-bold mb-4">Request a Service Plan</h2>
+                            <p class="text-muted mb-4">Tell us about your needs so we can recommend the right service plan and schedule your cleanup.</p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="planName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="planName" placeholder="Your full name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="planEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="planEmail" placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="planType" class="form-label">Preferred Plan</label>
+                                    <select class="form-select" id="planType">
+                                        <option selected>Select a plan</option>
+                                        <option>Weekly Maintenance</option>
+                                        <option>Monthly Maintenance</option>
+                                        <option>Emergency Response</option>
+                                        <option>Custom Cleanup Project</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="serviceDetails" class="form-label">Service Details</label>
+                                    <textarea class="form-control" id="serviceDetails" rows="4" placeholder="Describe the area, any hazards, quantity of debris, or special instructions."></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="preferredDate" class="form-label">Preferred Service Date</label>
+                                    <input type="date" class="form-control" id="preferredDate">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Additional Needs</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="inspection" id="needInspection">
+                                        <label class="form-check-label" for="needInspection">Site inspection before service</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="recycling" id="needRecycling">
+                                        <label class="form-check-label" for="needRecycling">Recycling sorting and pickup</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="education" id="needEducation">
+                                        <label class="form-check-label" for="needEducation">Community education support</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">Submit Plan Request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container">
